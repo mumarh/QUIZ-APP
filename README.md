@@ -15,12 +15,12 @@ A simple yet powerful JavaScript Quiz Application with a built-in timer feature.
 
 ## 🚀 Features
 
-✅ Interactive quiz questions with multiple choices
-✅ Countdown timer for each quiz attempt
-✅ Auto-submit when the timer ends
-✅ Instant score calculation and feedback
-✅ Works smoothly in modern browsers
-✅ Clean and responsive UI
+- ✅ Interactive quiz questions with multiple choices
+- ✅ Countdown timer for each quiz attempt
+- ✅ Auto-submit when the timer ends
+- ✅ Instant score calculation and feedback
+- ✅ Works smoothly in modern browsers
+- ✅ Clean and responsive UI
 
 ---
 
@@ -74,9 +74,3 @@ If you like this project, please:
 Thanks for visiting!
 
 
-
-
-
-
-
-    make this for my quiz timer app and give me back file
