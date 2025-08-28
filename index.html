@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Start Screen -->
+  <div id="quiz-start-screen" class="quiz-container">
+    <h2>Welcome to the Quiz</h2>
+    <input class="filled" type="text" id="username" placeholder="Enter your name" required />
+    <input class="filled"  type="email" id="Email" placeholder="Enter your email" required />
+    <button id="quiz-start-btn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Screen -->
+  <div id="quiz-main-screen" class="quiz-container2" style="display: none;">
+    <h2 id="quiz-question-text">Question will appear here</h2>
+    <div id="quiz-options-container"></div>
+    <div id="quiz-timer">Time left: <span id="quiz-time-left">10</span>s</div>
+    <button id="quiz-next-btn">Next</button>
+  </div>
+
+  <!-- Result Screen -->
+  <div id="quiz-result-screen" class="quiz-container" style="display: none;">
+    <h2>Quiz Results</h2>
+    <div id="quiz-results-output"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
